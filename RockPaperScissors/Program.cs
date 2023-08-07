@@ -29,18 +29,22 @@ namespace RockPaperScissors
             {
                 case 1:
                     inputCPU = "ROCK";
-                    Console.Write("Computer chose 'ROCK'");
+                    Console.WriteLine("Computer chose 'ROCK'");
                     if(inputPlayer == "ROCK")
                     {
-                        Console.Write("You also chose 'ROCK'. It's a DRAW!!");
+                        Console.WriteLine("You also chose 'ROCK'. It's a DRAW!!");
                     }
                     else if(inputPlayer == "PAPER")
                     {
-                        Console.Write("You chose 'PAPER'. 'PAPER' beats 'ROCK'. You WIN!!");
+                        Console.WriteLine("You chose 'PAPER'. 'PAPER' beats 'ROCK'. You WIN!!");
                     }
                     else if(inputPlayer == "SCISSORS")
                     {
-                        Console.Write("You chose 'SCISSORS'. 'ROCK' beats 'SCISSORS'. Computer WINS!!");
+                        Console.WriteLine("You chose 'SCISSORS'. 'ROCK' beats 'SCISSORS'. Computer WINS!!");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Error 1: Under computer choice ROCK");
                     }
                     break;
                 case 2:
@@ -48,11 +52,40 @@ namespace RockPaperScissors
                     Console.Write("Computer chose 'PAPER'");
                     if (inputPlayer == "PAPER")
                     {
-                        Console.Write("You also chose 'PAPER'. It's a DRAW!!");
+                        Console.WriteLine("You also chose 'PAPER'. It's a DRAW!!");
+                    }
+                    else if(inputPlayer == "ROCK")
+                    {
+                        Console.WriteLine("'PAPER' beats 'ROCK'. Computer WINS!!");
+                    }
+                    else if( inputPlayer == "SCISSORS")
+                    {
+                        Console.WriteLine("'SCISSORS' cut 'PAPER'. You WIN!!");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Error 2: Under computer choice: PAPER");
                     }
                     break;
                 case 3:
                     inputCPU = "SCISSORS";
+                    Console.WriteLine("Computer Chose 'SCISSORS'");
+                    if(inputPlayer == "SCISSORS")
+                    {
+                        Console.WriteLine("You also chose 'SCISSORS'. It's a draw!");
+                    }
+                    else if(inputPlayer == "ROCK")
+                    {
+                        Console.WriteLine("'ROCK' trumps 'SCISSORS'. You WIN!");
+                    }
+                    else if(inputPlayer == "PAPER")
+                    {
+                        Console.WriteLine("'SCISSORS' cut 'PAPER'. Computer WINS!!");
+                    }
+                    else
+                    {
+                        Console.WriteLine("Error 3: Under computer choice SCISSORS");
+                    }
                     break;
                 default:
                     
