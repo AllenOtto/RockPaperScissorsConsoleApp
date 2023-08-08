@@ -1,0 +1,8 @@
+C:\Users\TechBomba\Documents\JS\# C#\Code\classesAndObjects\RockPaperScissors\RockPaperScissors\bin\Debug\RockPaperScissors.exe.config
+C:\Users\TechBomba\Documents\JS\# C#\Code\classesAndObjects\RockPaperScissors\RockPaperScissors\bin\Debug\RockPaperScissors.exe
+C:\Users\TechBomba\Documents\JS\# C#\Code\classesAndObjects\RockPaperScissors\RockPaperScissors\bin\Debug\RockPaperScissors.pdb
+C:\Users\TechBomba\Documents\JS\# C#\Code\classesAndObjects\RockPaperScissors\RockPaperScissors\obj\Debug\RockPaperScissors.csproj.AssemblyReference.cache
+C:\Users\TechBomba\Documents\JS\# C#\Code\classesAndObjects\RockPaperScissors\RockPaperScissors\obj\Debug\RockPaperScissors.csproj.SuggestedBindingRedirects.cache
+C:\Users\TechBomba\Documents\JS\# C#\Code\classesAndObjects\RockPaperScissors\RockPaperScissors\obj\Debug\RockPaperScissors.csproj.CoreCompileInputs.cache
+C:\Users\TechBomba\Documents\JS\# C#\Code\classesAndObjects\RockPaperScissors\RockPaperScissors\obj\Debug\RockPaperScissors.exe
+C:\Users\TechBomba\Documents\JS\# C#\Code\classesAndObjects\RockPaperScissors\RockPaperScissors\obj\Debug\RockPaperScissors.pdb
