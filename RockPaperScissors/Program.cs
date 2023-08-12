@@ -105,6 +105,9 @@ namespace RockPaperScissors
 
                             break;
                     }
+
+                    Console.WriteLine("Your Score: " + scorePlayer);
+                    Console.WriteLine("CPU Score: " + scoreCPU);
                 }
 
                 // Delare winner
