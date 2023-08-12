@@ -24,7 +24,7 @@ namespace RockPaperScissors
                 while (scorePlayer < 3 && scoreCPU < 3)
                 {
                     // Get user choice
-                    Console.Write("Choose between ROCK, PAPER and SCISSORS: ");
+                    Console.Write(" \nChoose between ROCK, PAPER and SCISSORS: \n\n ");
                     inputPlayer = Console.ReadLine();
                     inputPlayer = inputPlayer.ToUpper();
 
@@ -106,28 +106,36 @@ namespace RockPaperScissors
                             break;
                     }
                 }
-            }
 
-            if(scorePlayer > 2)
-            {
-                Console.WriteLine("Congrats!! You WIN.");
-            } else if(scoreCPU > 2)
-            {
-                Console.WriteLine("Boohoo!! You Lost.");
-            } else
-            {
-                //
-            }
+                // Delare winner
+                if (scorePlayer == 3)
+                {
+                    Console.WriteLine("\n\nCongrats!! You WIN. \n\n");
+                }
+                else if (scoreCPU == 3)
+                {
+                    Console.WriteLine(" \n\nBoohoo!! You Lost. \n\n");
+                }
+                else
+                {
+                    //
+                }
 
-            Console.Write("Play again? (y/n)");
-            string loop = Console.ReadLine();
-            loop = loop.ToLower();
+                // Ask if player wants to have at it again
+                Console.Write("Play again? (Hit y to continue and anything else to exit) ");
+                string loop = Console.ReadLine();
+                loop = loop.ToLower();
 
-            if (loop == "y")
-            {
-                playAgain = true;
-            } else if (loop == "n") {
-                playAgain = false;
+                if (loop == "y")
+                {
+                    scoreCPU = 0;
+                    scorePlayer = 0;
+                    playAgain = true;
+                } else
+                {
+                    playAgain = false;
+                }
+
             }
         }
     }
