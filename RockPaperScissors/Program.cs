@@ -134,6 +134,7 @@ namespace RockPaperScissors
                     scoreCPU = 0;
                     scorePlayer = 0;
                     playAgain = true;
+                    Console.Clear();
                 } else
                 {
                     playAgain = false;
